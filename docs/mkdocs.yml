@@ -1,0 +1,3 @@
+site_name: CLI Setup Documentation
+nav:
+  - Home: index.md
