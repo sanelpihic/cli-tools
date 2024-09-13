@@ -1,13 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: cli-setup-tool  # Name of your component
-  description: A CLI setup tool to validate and install missing components in a developer environment.
-  owner: your-team  # Replace with the actual owner or team responsible
+  name: cli-tools
+  annotations:
+    github.com/project-slug: sanelpihic/cli-tools
 spec:
-  type: tool  # Specify the type of component (e.g., service, website, library, tool, etc.)
-  lifecycle: experimental  # Can be experimental, production, etc.
-  owner: sanelpihic@github.com  # The owner of the repository or tool
-  links:
-    - url: https://github.com/sanelpihic/cli-tools
-      title: Source Code
+  type: other
+  lifecycle: unknown
+  owner: guests
