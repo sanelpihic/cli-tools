@@ -4,6 +4,7 @@ metadata:
   name: cli-tools
   annotations:
     github.com/project-slug: sanelpihic/cli-tools
+    backstage.io/techdocs-ref: dir:docs  # TechDocs reference
 spec:
   type: other
   lifecycle: unknown
